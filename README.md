@@ -1,5 +1,5 @@
-# Python Internet SpeedTest 
- <h2>Hi!</h2>
+<h1>Python Internet SpeedTest</h1> 
+ <h3>Hi!</h3>
 
  This is a Python based internet speedtest that prints your result in megabytes. 
 
