@@ -1,7 +1,3 @@
-#print("initail commit to github & testing - more to come!")
-#speedtest-cli works with Python 2.4-3.7cmd - pip install speedtest-cli
-#---------
-
 import SpeedTest
 
 
@@ -14,7 +10,7 @@ print("choosing best server")
 best = test.get_best_server() # choose best serv
 print(f"Found: {best['host']} located in {'country'})
       
-print("preforming download etst")
+print("preforming download test")
 download_result = test.download()
 print("preforming uplaod")
 upload_result = test.upload()
