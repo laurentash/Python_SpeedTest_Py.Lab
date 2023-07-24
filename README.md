@@ -9,6 +9,6 @@
 
  ```pip install speedtest-cli```
 
- Inspired by Nueral Link on YouTube. 
+
 
 
