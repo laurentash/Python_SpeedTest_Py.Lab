@@ -4,15 +4,15 @@ import SpeedTest
 test = speedtest.Speedtest()
 
 
-print("loading server list")
+print("Loading a list of servers...")
 test.get_servers() # gets list of servers aval
-print("choosing best server")
+print("Choosing the best server...")
 best = test.get_best_server() # choose best serv
-print(f"Found: {best['host']} located in {'country'})
+print(f"Found: {best['host']} located in {'country'}.)
       
-print("preforming download test")
+print("Preforming download test...")
 download_result = test.download()
-print("preforming uplaod")
+print("Preforming uplaod test...")
 upload_result = test.upload()
 ping_result = test.results.ping()
 
