@@ -10,5 +10,7 @@
  ```pip install speedtest-cli```
 
 
+<h3>Thanks for viewing! :) </h3>
+
 
 
