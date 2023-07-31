@@ -19,3 +19,4 @@ ping_result = test.results.ping() # -> Tests ping of connection
 print(f"Download speed: {download_result / 1024 / 1024:.2f} Mbit/s")
 print(f"Upload speed: {upload_result / 1024 / 1024:.2f} Mbit/s")
 print(f"Ping result: {ping_result:.2f} ms")
+ 
